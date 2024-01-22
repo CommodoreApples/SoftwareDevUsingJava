@@ -1,4 +1,4 @@
-public class UnitConverter {
+public class Converter {
 
     /** Convert from feet to meters */
     public static double footToMeter(double foot) {
