@@ -19,7 +19,7 @@ public class PA35 extends Application {
 
     @Override
     public void start(@SuppressWarnings("exports") Stage primaryStage) {
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "@Mda91326ata@")) {
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "*******")) {  //"*******" - Root password
             // Create database
             try (Statement stmt = conn.createStatement()) {
                 stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS MySQL80");
